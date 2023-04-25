@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directives';
-}
+
+  onKeyUp(eve:any){
+    console.log(eve.target.value);
+    
+  }
+};
+
